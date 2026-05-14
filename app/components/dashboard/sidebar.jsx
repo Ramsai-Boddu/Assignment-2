@@ -38,7 +38,7 @@ export default function Sidebar() {
         {
             icon: "💰",
             name: "Total Assets",
-            path: "/Totalassets"
+            path: "/Assets"
         },
         {
             icon: <FiSettings />,

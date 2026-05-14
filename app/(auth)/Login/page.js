@@ -65,7 +65,7 @@ export default function Login() {
 
                             if (result.message === "Login Success") {
                                 storeDetails(email, password)
-                                storeId(result.id)
+                                storeId(result.investor_id)
                                 document.cookie = `token=${result.token}`
                                 router.push("/Dashboard")
                             }
